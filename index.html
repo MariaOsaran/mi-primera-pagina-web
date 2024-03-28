@@ -1,71 +1,99 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Mi Página Web</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-      background-color: #f0f0f0;
-    }
-    header {
-      background-color: #333;
-      color: #fff;
-      padding: 20px;
-      text-align: center;
-    }
-    nav {
-      background-color: #666;
-      padding: 10px;
-      text-align: center;
-    }
-    nav a {
-      color: #fff;
-      text-decoration: none;
-      padding: 10px 20px;
-    }
-    nav a:hover {
-      background-color: #999;
-    }
-    section {
-      padding: 20px;
-      margin: 20px;
-      background-color: #fff;
-    }
-    footer {
-      background-color: #333;
-      color: #fff;
-      text-align: center;
-      padding: 10px;
-      position: fixed;
-      bottom: 0;
-      width: 100%;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio de María Osaran</title>
+    <style>
+        /* Estilos CSS aquí */
+        /* Estilos generales */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        /* Estilos para el encabezado */
+        header {
+            background-color: #ffd1dc;
+            color: #fff;
+            text-align: center;
+            padding: 50px 0;
+        }
+        header img {
+            width: 150px; /* Ajustar el tamaño de la imagen según sea necesario */
+            height: auto; /* Mantener la proporción de la imagen */
+            border-radius: 10%; /* Agregar un borde redondeado a la imagen */
+        }
+        /* Estilos para la barra de navegación */
+        nav {
+            background-color: #bce5f5;
+            padding: 20px 0;
+            text-align: center;
+        }
+        nav a {
+            text-decoration: none;
+            color: #333;
+            margin: 0 10px;
+        }
+        /* Estilos para las secciones */
+        section {
+            padding: 50px 20px;
+            text-align: center;
+            background-color: #f9f9f9; /* Cambiar color de fondo aquí */
+        }
+
+        /* Estilos para los títulos de sección */
+        h2 {
+            color: #333;
+        }
+
+        /* Estilos para el párrafo de la biografía */
+        section#biografia p {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        /* Estilos para los enlaces de la barra de navegación */
+        nav a:hover {
+            color: #666;
+        }
+    </style>
 </head>
 <body>
+    <header>
+        <img src="https://media.istockphoto.com/id/96373570/fr/photo/outils-de-plan-brillant.jpg?s=2048x2048&w=is&k=20&c=fvK7xFNQtrr_zKDc6aAE0wPOrPdOxEh-LW2i0KGuLaE=" alt="Imagen de cabecera">
+        <h1>María Osaran</h1>
+        <p>Ingeniera Mecánica y Desarrolladora Web en formación</p>
+    </header>
 
-<header>
-  <h1>Mi Página Web</h1>
-</header>
+    <nav>
+        <a href="#biografia">Biografía</a>
+        <a href="#proyectos">Proyectos</a>
+        <a href="#habilidades">Habilidades</a>
+        <a href="#contacto">Contacto</a>
+    </nav>
 
-<nav>
-  <a href="#">Inicio</a>
-  <a href="#">Acerca de</a>
-  <a href="#">Contacto</a>
-</nav>
+    <section id="biografia">
+        <h2>Biografía</h2>
+        <p>Ingeniera mecánica con pasión por el diseño industrial. En transición hacia la programación web para fusionar creatividad y tecnología.</p>
+    </section>
 
-<section>
-  <h2>Contenido Principal</h2>
-  <p>Bienvenido a mi página web. Aquí encontrarás contenido interesante.</p>
-</section>
+    <section id="proyectos">
+        <h2>Proyectos</h2>
+        <p>Aquí puedes ver algunos de mis proyectos recientes:</p>
+        <!-- Agrega detalles de tus proyectos aquí -->
+    </section>
 
-<footer>
-  <p>Derechos de autor © 2024 Mi Página Web. Todos los derechos reservados.</p>
-</footer>
+    <section id="habilidades">
+        <h2>Habilidades</h2>
+        <p>Estas son algunas de mis habilidades:</p>
+        <!-- Lista tus habilidades aquí -->
+    </section>
 
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <p>No dudes en ponerte en contacto conmigo:</p>
+        <!-- Agrega tu información de contacto aquí -->
+    </section>
 </body>
 </html>
